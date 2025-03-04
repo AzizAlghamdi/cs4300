@@ -1,0 +1,35 @@
+{% extends 'bookings/base.html' %}
+
+{% block title %}Booking Error{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card border-danger">
+                <div class="card-header bg-danger text-white">
+                    <h3 class="card-title mb-0">Booking Error</h3>
+                </div>
+                <div class="card-body">
+                    <div class="text-center mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-exclamation-circle-fill text-danger" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4zm.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+                        </svg>
+                    </div>
+                    
+                    <h4 class="text-center mb-4">{{ error }}</h4>
+                    
+                    <div class="alert alert-danger">
+                        <p>Unfortunately, we couldn't complete your booking. Please try selecting a different seat or movie.</p>
+                    </div>
+                    
+                    <div class="d-grid gap-2">
+                        <a href="javascript:history.back()" class="btn btn-primary">Go Back</a>
+                        <a href="{% url 'movie_list' %}" class="btn btn-outline-secondary">Browse Movies</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

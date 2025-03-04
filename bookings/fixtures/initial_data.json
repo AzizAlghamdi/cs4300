@@ -1,0 +1,104 @@
+[
+    {
+      "model": "bookings.movie",
+      "pk": 1,
+      "fields": {
+        "title": "The Dark Knight",
+        "description": "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets.",
+        "release_date": "2008-07-18",
+        "duration": 152
+      }
+    },
+    {
+      "model": "bookings.movie",
+      "pk": 2,
+      "fields": {
+        "title": "Inception",
+        "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+        "release_date": "2010-07-16",
+        "duration": 148
+      }
+    },
+    {
+      "model": "bookings.movie",
+      "pk": 3,
+      "fields": {
+        "title": "Interstellar",
+        "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+        "release_date": "2014-11-07",
+        "duration": 169
+      }
+    },
+    {
+      "model": "bookings.seat",
+      "pk": 1,
+      "fields": {
+        "seat_number": "A1",
+        "is_available": true
+      }
+    },
+    {
+      "model": "bookings.seat",
+      "pk": 2,
+      "fields": {
+        "seat_number": "A2",
+        "is_available": true
+      }
+    },
+    {
+      "model": "bookings.seat",
+      "pk": 3,
+      "fields": {
+        "seat_number": "A3",
+        "is_available": true
+      }
+    },
+    {
+      "model": "bookings.seat",
+      "pk": 4,
+      "fields": {
+        "seat_number": "B1",
+        "is_available": true
+      }
+    },
+    {
+      "model": "bookings.seat",
+      "pk": 5,
+      "fields": {
+        "seat_number": "B2",
+        "is_available": true
+      }
+    },
+    {
+      "model": "bookings.seat",
+      "pk": 6,
+      "fields": {
+        "seat_number": "B3",
+        "is_available": true
+      }
+    },
+    {
+      "model": "bookings.seat",
+      "pk": 7,
+      "fields": {
+        "seat_number": "C1",
+        "is_available": true
+      }
+    },
+    {
+      "model": "bookings.seat",
+      "pk": 8,
+      "fields": {
+        "seat_number": "C2",
+        "is_available": true
+      }
+    },
+    {
+      "model": "bookings.seat",
+      "pk": 9,
+      "fields": {
+        "seat_number": "C3",
+        "is_available": true
+      }
+    }
+  ]
